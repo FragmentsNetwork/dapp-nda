@@ -1,0 +1,29 @@
+body {
+    background-image: -webkit-linear-gradient(#FCFCFD 0%, #F7F7FA 100%);
+    background-image: -o-linear-gradient(#FCFCFD 0%, #F7F7FA 100%);
+    background-image: linear-gradient(#FCFCFD 0%, #F7F7FA 100%);
+}
+
+.annotator,
+.task-requester,
+.treaty {
+    background-image: url('images/city-illustration.svg');
+    background-repeat: no-repeat;
+    background-position: right center;
+    //background-size: auto 100%;
+    background-size: auto 1350px;
+    padding-bottom: 6rem;
+    min-height: 960px;
+}
+
+.card {
+    box-shadow: 0 16px 64px rgba(gray('500'),.2);
+}
+
+.treaty .repetitiveInput {
+    margin-bottom: 10px;
+}
+
+.treaty .abstractPrintedContract .btn.btn-primary {
+  margin-bottom: 10px;
+}

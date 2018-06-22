@@ -1,0 +1,91 @@
+/*
+	Colors
+*/
+$primary-color: rgb(0, 123, 255);
+$dark-primary-color: rgb(0, 123, 255);
+
+$color-headline: #374061;
+$color-text-dark: #8A8D9A;
+$color-link: #4D93CD;
+
+
+$primary: 		#956AEE;
+$secondary: 	#4D93CD;
+
+$success:		#5AE67C;
+$warning:		#FFD44C;
+$danger:		#FC6B6B;
+
+$gray-100: #F5F5F6;
+$gray-200: #E4E4E9;
+$gray-300: #D2D3D9;
+$gray-400: #AAADB7;
+$gray-500: #828696;
+$gray-600: #6D7284;
+$gray-700: #5A6073;
+$gray-800: #454B61;
+$gray-900: #323951;
+$black:    #1B2032;
+
+$facebook:	#3B5999;
+$twitter:	#55ACEE;
+
+/*
+	Body
+*/
+$font-size-base: 1rem;
+$font-family-sans-serif: 'Roboto', sans-serif;
+
+
+/*
+	Typography
+*/
+
+$font-weight-light:      300;
+$font-weight-normal:     400;
+$font-weight-medium:     500;
+$font-weight-bold:       700;
+
+$body-color:		$gray-500;
+$headings-color:	$gray-800;
+
+$headings-font-weight: 	$font-weight-normal;
+
+$h1-font-size: $font-size-base * 2.5;
+$h2-font-size: $font-size-base * 1.5;
+$h3-font-size: $font-size-base * 1.1;
+
+
+
+/*
+	Buttons + Inputs
+*/
+
+$input-btn-padding-y:   	.5rem;
+$input-btn-padding-x:        .8rem;
+
+/*
+	Buttons
+*/
+
+$btn-font-weight:          	$font-weight-medium;
+$btn-padding-x:             1.6rem;
+$btn-padding-y:             .7rem;
+$btn-border-width:    		0;
+
+$btn-padding-y-sm:            .4rem;
+$btn-padding-x-sm:            1.5rem;
+
+/*
+	Forms
+*/
+$input-bg:      			$gray-100;
+$input-border-color:  		$gray-200;
+$input-placeholder-color: 	$gray-400;
+$input-disabled-bg:			$gray-100;
+
+/*
+	Cards
+*/
+
+$card-border-color:   		$gray-200;
