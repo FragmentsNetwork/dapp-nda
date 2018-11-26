@@ -1,5 +1,6 @@
 
 let {tsxBuild, tsxWatch, solBuild, solWatch, cssTypeBuild, cssTypeWatch} = require('soliditySapper');
+const fs = require('fs')
 //import {tsxBuild, tsxWatch, solBuild} from 'soliditySapper/tsxCompiler';
 
 const solIndeces = [
@@ -19,6 +20,17 @@ const cssTypeIndeces = [
 const tsxParameters = {
     tsconfig: __dirname + "/tsconfig.json"
 };
+
+const ensureFolder = (folder) => {
+    try {
+        fs.mkdirSync(folder)
+    } catch (e) {
+        if (!e || (e && e.code !== 'EEXIST')) {
+            // directory already exists
+            throw e
+        }
+    }
+}
 
 let commands;
 commands = {
@@ -43,4 +55,5 @@ if (process.argv.length != 3 || !commands[process.argv[2]]) {
     process.exit(1);
 }
 
+ensureFolder(__dirname + '/dist')
 commands[process.argv[2]]();
